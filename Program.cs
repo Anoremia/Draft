@@ -1,16 +1,17 @@
-﻿namespace Task17
+﻿namespace Task18
 {
     internal class Program
     {
-        public static void Main(string[] args)
+       public static void Main(string[] args)
         {
-            GetName();
-        }
-        public static string GetName()
-        {
-            return string.Empty;
+            GetArray();
         }
 
-        
+        public static string GetArray()
+            
+        {
+            return default(string);
+            int[] numbers;
+        }
     }
 }
